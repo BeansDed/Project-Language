@@ -1,0 +1,28 @@
+body{
+    background-color: aqua;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.button{
+    padding: 10px 20px;
+    background-color: #7E35F7;
+    color: #fff;    
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+ 
+.press {
+    padding: 10px 20px;
+    background-color: #7E35F7;
+    color: #fff;    
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+        
+}
