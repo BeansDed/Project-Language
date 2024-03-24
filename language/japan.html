@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Voyages</title>
+    <link rel="stylesheet" href="language.css">
+</head>
+<body>
+    <header>
+        <h1>Language Tutorial</h1>
+        <h2>As you embark on your linguistic journey  <br>
+            with Language Voyages, you're greeted with a <br>
+            colorful interface that feels more like a fun<br>
+            game than a traditional educational tool. Each <br>
+            lesson is meticulously crafted to engage your<br>
+            mind, offering a variety of exercises ranging from listening comprehension to<br>
+            translation challenges.<br>
+            <br>
+        </h2>
+    </header>
+    <main>
+        <div id="vocabulary">
+            <h2>Vocabulary</h2>
+            <p id="word">Hello</p>
+            <p id="hint"></p>
+            <button id="nextWordButton">Next Word</button>
+        </div>
+        <div id="languageSelection">
+            <h2>Language Selection</h2>
+            <select id="languageSelect">
+                <option value="spanish">Spanish</option>
+                <option value="japanese">Japanese</option>
+                <option value="tagalog">Tagalog</option>
+                <option value="german">German</option>
+                <option value="korea">Korea</option>
+            </select>
+        </div>
+        <div id="exercise">
+            <h2>Exercise</h2>
+            <p>Translate the word:</p>
+            <input type="text" id="translationInput">
+            <button id="checkTranslationButton">Check</button>
+            <p id="feedback"></p>
+        </div>
+      
+        <div id="progress">
+            <h2>Progress</h2>
+            <p id="progressText">0 / 0 words learned</p>
+        </div>
+        <img src="logo.png" alt="image">
+    </main>
+    <script src="language.js"></script>
+</body>
+</html>

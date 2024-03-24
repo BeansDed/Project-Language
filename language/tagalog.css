@@ -1,0 +1,107 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #007bff;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: -10px;
+    text-align: center;
+    margin-top: -420px
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    color: #4603B5;
+}
+h2 {
+    font-size: 1em;
+}
+main {
+    max-width: 100%;
+    padding: 0 0px;
+    width: 100%;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: -40px;
+}
+
+p {     
+    margin-bottom: 10px;
+}
+
+img{
+    margin-left: -40%;
+    height: 400px;
+    margin-top: -70%;
+    width: 400px;
+    margin-top: -400px;
+    background-image: none;
+}   
+
+/* Vocabulary section */
+#vocabulary,
+#languageSelection,
+#exercise,
+#progress {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#word {
+    font-size: 2em;
+}
+
+#hint {
+    font-style: italic;
+    color: #777;
+}
+
+/* Exercise section */
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%; /* Adjusted width */
+    max-width: 200px; /* Added max-width */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #7E35F7;
+    color: #fff;    
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#feedback {
+    margin-top: 10px;
+    font-style: italic;
+}

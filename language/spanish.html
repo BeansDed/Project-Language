@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Voyages</title>
+    <link rel="stylesheet" href="spanish.css">
+</head>
+<body>
+    <header>
+        <a href="../main/picker.html">
+            <button class="button_title">Language Voyages</button>
+        </a>
+    </header>
+
+    <main>
+        <div class="section" id="vocabulary">
+            <h2>Vocabulary</h2>
+            <p class="word" id="word">Hello</p>
+            <p class="hint" id="hint"></p>
+            <button id="nextWordButton">Next Word</button>
+        </div>
+        <div class="section" id="exercise">
+            <h2>Exercise</h2>
+            <p>Translate the word:</p>
+            <input type="text" id="translationInput">
+            <button id="checkTranslationButton">Check</button>
+            <p id="feedback"></p>
+        </div>
+      
+        <div class="section" id="progress">
+            <h2>Progress</h2>
+            <p id="progressText">0 / 0 words learned</p>
+        </div>
+    </main>
+    <script src="spanish.js"></script>
+</body>
+</html>
