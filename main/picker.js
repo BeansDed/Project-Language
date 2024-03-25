@@ -12,13 +12,16 @@ cardButtons.forEach(button => {
                 pageURL = "../language/spanish.html";
                 break;
             case 'korea':
-                pageURL = 'korea-practice.html';
+                pageURL = "../language/korea.html";
                 break;
             case 'philippines':
-                pageURL = 'philippines-practice.html';
+                pageURL = "../language/tagalog.html";
                 break;
             case 'japan':
-                pageURL = 'japan-practice.html';
+                pageURL = "../language/japan.html";
+                break;
+            case 'german':
+                pageURL = "../language/german.html";
                 break;
             default:
                 pageURL = '404.html'; // Redirect to a 404 page if the language is not found
