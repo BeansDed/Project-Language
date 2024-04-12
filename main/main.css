@@ -15,6 +15,16 @@ header {
     margin: 0 auto;
 }
 
+.back_button{
+    height: 5%;
+    width: 5%;
+    margin-bottom: -10vh;
+}   
+
+i{
+    margin-left: 5vw;
+}
+
 .button {
     padding: 1vh 2vw;
     background-color: white;

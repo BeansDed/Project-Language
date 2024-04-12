@@ -41,11 +41,6 @@ const vocabulary = {
             { word: "がっこう (gakkou)", translation: "School", hint: "place of education" },
             { word: "まなぶ (manabu)", translation: "To learn", hint: "process of acquiring knowledge" },
             { word: "おしえる (oshieru)", translation: "To teach", hint: "sharing knowledge with others" },
-            { word: "ゆめ (yume)", translation: "Dream", hint: "imaginary experience during sleep" },
-            { word: "げんじつ (genjitsu)", translation: "Reality", hint: "what actually exists" },
-            { word: "じかん (jikan)", translation: "Hour", hint: "unit of time" },
-            { word: "ふん (fun)", translation: "Minute", hint: "small unit of time" },
-            { word: "びょう (byou)", translation: "Second", hint: "smallest unit of time" }
         ],
         shuffle: function() {
             this.words.sort(() => Math.random() - 0.5);

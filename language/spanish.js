@@ -3,10 +3,8 @@ const vocabulary = {
         words: [
             { word: "Hola", translation: "Hello", hint: "Common greeting" },
             { word: "Adiós", translation: "Goodbye", hint: "Farewell" },
-            { word: "Hola", translation: "Hello", hint: "Common greeting" },
-            { word: "Adiós", translation: "Goodbye", hint: "Farewell" },
-            { word: "Me llamo", translation: "My Name Is", hint: "How you greet your name" },
-            { word: "Buenos Dias", translation: "Good Morning", hint: "What do you say to someone in the morning" },
+            { word: "Me llamo", translation: "MyNameIs", hint: "How you greet your name" },
+            { word: "Buenos Dias", translation: "GoodMorning", hint: "What do you say to someone in the morning" },
             { word: "perro", translation: "Dog", hint: "common household pet" },
             { word: "gato", translation: "Cat", hint: "furry and independent" },
             { word: "casa", translation: "House", hint: "place where you live" },
@@ -22,13 +20,13 @@ const vocabulary = {
             { word: "cama", translation: "Bed", hint: "where you sleep" },
             { word: "tren", translation: "Train", hint: "mode of public transportation" },
             { word: "ciudad", translation: "City", hint: "urban area" },
-            { word: "jugar", translation: "To play", hint: "activity for fun" },
-            { word: "comer", translation: "To eat", hint: "necessary for survival" },
-            { word: "beber", translation: "To drink", hint: "necessary for hydration" },
-            { word: "correr", translation: "To run", hint: "physical activity" },
-            { word: "volar", translation: "To fly", hint: "how birds move" },
-            { word: "amar", translation: "To love", hint: "deep affection" },
-            { word: "odiar", translation: "To hate", hint: "intense dislike" },
+            { word: "jugar", translation: "ToPlay", hint: "activity for fun" },
+            { word: "comer", translation: "ToEat", hint: "necessary for survival" },
+            { word: "beber", translation: "ToDrink", hint: "necessary for hydration" },
+            { word: "correr", translation: "ToRun", hint: "physical activity" },
+            { word: "volar", translation: "ToFly", hint: "how birds move" },
+            { word: "amar", translation: "ToLove", hint: "deep affection" },
+            { word: "odiar", translation: "ToHate", hint: "intense dislike" },
             { word: "feliz", translation: "Happy", hint: "positive emotion" },
             { word: "triste", translation: "Sad", hint: "opposite of happy" },
             { word: "alto", translation: "Tall", hint: "height description" },
@@ -41,33 +39,8 @@ const vocabulary = {
             { word: "verano", translation: "Summer", hint: "hottest season" },
             { word: "primavera", translation: "Spring", hint: "season of blooming flowers" },
             { word: "otoño", translation: "Autumn", hint: "season of falling leaves" },
-            { word: "amigo", translation: "Friend", hint: "close companion" },
-            { word: "familia", translation: "Family", hint: "related by blood or marriage" },
-            { word: "trabajo", translation: "Work", hint: "employment or task" },
-            { word: "escuela", translation: "School", hint: "place of education" },
-            { word: "aprender", translation: "To learn", hint: "process of acquiring knowledge" },
-            { word: "enseñar", translation: "To teach", hint: "sharing knowledge with others" },
-            { word: "sueño", translation: "Dream", hint: "imaginary experience during sleep" },
-            { word: "realidad", translation: "Reality", hint: "what actually exists" },
-            { word: "hora", translation: "Hour", hint: "unit of time" },
-            { word: "minuto", translation: "Minute", hint: "small unit of time" },
-            { word: "segundo", translation: "Second", hint: "smallest unit of time" },
-            { word: "playa", translation: "Beach", hint: "sandy shore by the ocean" },
-            { word: "montaña", translation: "Mountain", hint: "tall landform" },
-            { word: "bosque", translation: "Forest", hint: "dense collection of trees" },
-            { word: "río", translation: "River", hint: "flowing water body" },
-            { word: "oceano", translation: "Ocean", hint: "large body of saltwater" },
-            { word: "isla", translation: "Island", hint: "land surrounded by water" },
-            { word: "continente", translation: "Continent", hint: "large landmass" },
-            { word: "país", translation: "Country", hint: "sovereign state" },
-            { word: "capital", translation: "Capital", hint: "seat of government" },
-            { word: "idioma", translation: "Language", hint: "form of communication" },
-            { word: "comida", translation: "Food", hint: "what you eat" },
-            { word: "bebida", translation: "Drink", hint: "what you consume for hydration" },
-            { word: "música", translation: "Music", hint: "auditory art form" },
-            { word: "baile", translation: "Dance", hint: "rhythmic movement to music" },
-            { word: "arte", translation: "Art", hint: "creative expression" },
-            { word: "historia", translation: "History", hint: "study of past events" },
+            { word: "familia", translation: "Family", hint: "people you're related to" },
+            { word: "amigo", translation: "Friend", hint: "someone you enjoy spending time with" }  
         ],
         shuffle: function() {
             this.words.sort(() => Math.random() - 0.5);
@@ -144,7 +117,7 @@ document.getElementById("checkTranslationButton").addEventListener("click", chec
 // Event listener for language selection
 document.getElementById("languageSelect").addEventListener("change", function(event) {
     currentLanguage = event.target.value;
-    currentWordIndex = 0; // Reset the word index when language changes
+    currentWordIndex = 0; 
     displayNextWord();
     updateProgress();
 });

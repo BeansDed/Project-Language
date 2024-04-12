@@ -1,0 +1,36 @@
+body{
+    background-color: #76b5c5;
+}
+
+.About{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10vh;
+    margin-left: 45vw;
+    margin-top: -90vh;
+    padding: 10vhs;
+    border: none;
+    outline: none;
+}
+
+.Paragraph{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 45vw;
+    margin-right:10vw;
+    font-size: 5vh;
+    margin-top: -10vh;
+    text-align: justify;
+}
+
+img{
+    height: 20%;
+    width: 40%;
+    border: none;
+}
+
+.message{
+    color: blue;
+    margin-left: 94vh;
+    font-size: 3vh;
+}

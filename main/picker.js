@@ -1,20 +1,22 @@
-const productContainers = [...document.querySelectorAll('.language-container')];
-const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
-const preBtn = [...document.querySelectorAll('.pre-btn')];
-const cardButtons = document.querySelectorAll('.card-btn');
-
-cardButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        const language = button.textContent.toLowerCase(); // Get the text content of the button and convert it to lowercase
+document.addEventListener('DOMContentLoaded', function() {
+    const imageButtons = document.querySelectorAll('.button_image');
+    imageButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const language = button.querySelector(".language-thumb").alt;
+            handleButtonClick(language);
+        });
+    });
+    
+    function handleButtonClick(language) {
         let pageURL;
-        switch (language) { // Define URLs for each language
-            case 'spanish':
+        switch (language.toLowerCase()) {
+            case "spain":
                 pageURL = "../language/spanish.html";
                 break;
             case 'korea':
                 pageURL = "../language/korea.html";
                 break;
-            case 'philippines':
+            case 'pipino':
                 pageURL = "../language/tagalog.html";
                 break;
             case 'japan':
@@ -23,23 +25,24 @@ cardButtons.forEach(button => {
             case 'german':
                 pageURL = "../language/german.html";
                 break;
+            case 'italy':
+                pageURL = "../language/italian.html";
+                break;
+            case 'france':
+                pageURL = "../language/french.html";
+                break;
+            case 'china':
+                pageURL = "../language/chinese.html";
+                break;
+            case 'brazil':
+                pageURL = "../language/portuguese.html";
+                break;
+            case 'russia':
+                pageURL = "../language/russian.html";
+                break;
             default:
-                pageURL = '404.html'; // Redirect to a 404 page if the language is not found
+                pageURL = '404.html';
         }
-        window.location.href = pageURL; // Redirect to the corresponding language practice page
-    });
+        window.location.href = pageURL;
+    }
 });
-
-
-productContainers.forEach((item, i) => {
-    let containerDimensions = item.getBoundingClientRect();
-    let containerWidth = containerDimensions.width;
-
-    nxtBtn[i].addEventListener('click', () => {
-        item.scrollLeft += containerWidth;
-    })
-
-    preBtn[i].addEventListener('click', () => {
-        item.scrollLeft -= containerWidth;
-    })
-})
