@@ -1,0 +1,110 @@
+/* HEADER */
+header {
+    background-color: white;
+    padding: 0vh;
+    margin: 0;
+    position: relative;
+    font-size: 4vw; /* Set font size to match the body */
+}
+
+.back_button {
+    position: absolute;
+    top: 7%;
+    left: 0vw;
+    transform: translateY(-50%);
+    height: 10%;
+    width: 5%;
+}
+
+/* BODY */
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+body {
+    background-color: #76b5c5;
+    overflow: hidden; /* Disable scrolling */
+}
+
+.paragraph {
+    padding: 0 2.5vw;
+    font-size: 5vw;
+    font-weight: 800;
+    margin-bottom: 4vh;
+    text-transform: capitalize;
+    margin-top: 6vh;
+}
+
+h1 {
+    background-color: white;
+    padding: 1vw;
+    margin: 0 auto;
+}
+
+.Title1 {
+    font-size: 4vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 4vw;
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* LANGUAGE */
+.language {
+    position: relative;
+    overflow: hidden;
+    padding: 2vh 0;
+}
+
+.language-container::-webkit-scrollbar {
+    display: none;
+}
+
+.language-container {
+    padding: 0 2.5vw;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center items horizontally */
+    max-width: 100%;
+    margin-left: 4vh;
+}
+
+.language-card {
+    flex-shrink: 0;
+    width: 30vw; /* Adjust width as needed */
+    height: auto;
+    margin-right: -15vw; /* Add some margin between cards */
+    margin-bottom: 2vh; /* Add some margin between rows */
+}
+
+.language-image {
+    position: relative;
+    width: 30vh;
+    height: 30vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.language-thumb {
+    width: 80%;
+    height: 60%;
+    object-fit: fill;
+    box-shadow: 0 0.3vw 0.4vw black;
+    border-bottom-right-radius: 4vw;
+    border-top-left-radius: 4vw;
+}
+
+.button_image{
+    border: none;
+    background-color: #76b5c5;
+}
+
+
+.language-brand {
+    text-transform: uppercase;
+}
