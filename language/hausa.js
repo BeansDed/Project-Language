@@ -1,46 +1,43 @@
 const vocabulary = {
-    italian: {
+    hausa: {
         words: [
-            { word: "Cane", translation: "Dog", hint: "pet", audio: "../italian/dog.mp3" },
-            { word: "Gatto", translation: "Cat", hint: "feline", audio: "../italian/cat.mp3" },
-            { word: "Casa", translation: "House", hint: "dwelling", audio: "../italian/house.mp3" },
-            { word: "Blu", translation: "Blue", hint: "color", audio: "../italian/blue.mp3" },
-            { word: "Giallo", translation: "Yellow", hint: "color", audio: "../italian/yellow.mp3" },
-            { word: "Rosso", translation: "Red", hint: "color", audio: "../italian/red.mp3" },
-            { word: "Mela", translation: "Apple", hint: "fruit", audio: "../italian/apple.mp3" },
-            { word: "Acqua", translation: "Water", hint: "drink", audio: "../italian/water.mp3" },
-            { word: "Sole", translation: "Sun", hint: "celestial", audio: "../italian/sun.mp3" },
-            { word: "Luna", translation: "Moon", hint: "celestial", audio: "../italian/moon.mp3" },
-            { word: "Libro", translation: "Book", hint: "read", audio: "../italian/book.mp3" },
-            { word: "Auto", translation: "Car", hint: "vehicle", audio: "../italian/car.mp3" },
-            { word: "Letto", translation: "Bed", hint: "sleep", audio: "../italian/bed.mp3" },
-            { word: "Treno", translation: "Train", hint: "transport", audio: "../italian/train.mp3" },
-            { word: "Città", translation: "City", hint: "urban", audio: "../italian/city.mp3" },
-            { word: "Gioco", translation: "Play", hint: "game", audio: "../italian/play.mp3" },
-            { word: "Mangiare", translation: "Eat", hint: "consume", audio: "../italian/eat.mp3" },
-            { word: "Bere", translation: "Drink", hint: "consume", audio: "../italian/drink.mp3" },
-            { word: "Correre", translation: "Run", hint: "move", audio: "../italian/run.mp3" },
-            { word: "Volare", translation: "Fly", hint: "move", audio: "../italian/fly.mp3" },
-            { word: "Amore", translation: "Love", hint: "emotion", audio: "../italian/love.mp3" },
-            { word: "Odio", translation: "Hate", hint: "emotion", audio: "../italian/hate.mp3" },
-            { word: "Felice", translation: "Happy", hint: "emotion", audio: "../italian/happy.mp3" },
-            { word: "Triste", translation: "Sad", hint: "emotion", audio: "../italian/sad.mp3" },
-            { word: "Alto", translation: "Tall", hint: "height", audio: "../italian/tall.mp3" },
-            { word: "Piccolo", translation: "Small", hint: "size", audio: "../italian/small.mp3" },
-            { word: "Forte", translation: "Strong", hint: "strength", audio: "../italian/strong.mp3" },
-            { word: "Debole", translation: "Weak", hint: "strength", audio: "../italian/weak.mp3" },
-            { word: "Freddo", translation: "Cold", hint: "temperature", audio: "../italian/cold.mp3" },
-            { word: "Caldo", translation: "Hot", hint: "temperature", audio: "../italian/hot.mp3" },
-            { word: "Inverno", translation: "Winter", hint: "season", audio: "../italian/winter.mp3" },
-            { word: "Estate", translation: "Summer", hint: "season", audio: "../italian/summer.mp3" },
-            { word: "Primavera", translation: "Spring", hint: "season", audio: "../italian/spring.mp3" },
-            { word: "Autunno", translation: "Autumn", hint: "season", audio: "../italian/autumn.mp3" },
-            { word: "Amico", translation: "Friend", hint: "relationship", audio: "../italian/friend.mp3" },
-            { word: "Famiglia", translation: "Family", hint: "relationship", audio: "../italian/family.mp3" },
-            { word: "Lavoro", translation: "Work", hint: "job", audio: "../italian/work.mp3" },
-            { word: "Scuola", translation: "School", hint: "education", audio: "../italian/school.mp3" },
-            { word: "Imparare", translation: "Learn", hint: "education", audio: "../italian/learn.mp3" },
-            { word: "Insegnare", translation: "Teach", hint: "education", audio: "../italian/teach.mp3" }
+            { word: "gidan", translation: "house", hint: "place where one lives", audio: "../hausa/house.mp3" },
+            { word: "dogon", translation: "boy", hint: "young male human", audio: "../hausa/boy.mp3" },
+            { word: "mama", translation: "mother", hint: "female parent", audio: "../hausa/mother.mp3" },
+            { word: "mutum", translation: "man", hint: "adult male human", audio: "../hausa/man.mp3" },
+            { word: "jiki", translation: "body", hint: "physical structure of a person or animal", audio: "../hausa/body.mp3" },
+            { word: "fara", translation: "cow", hint: "female bovine animal", audio: "../hausa/cow.mp3" },
+            { word: "ciwon", translation: "tree", hint: "perennial woody plant", audio: "../hausa/tree.mp3" },
+            { word: "kai", translation: "head", hint: "upper part of the body", audio: "../hausa/head.mp3" },
+            { word: "kumatu", translation: "star", hint: "luminous celestial body", audio: "../hausa/star.mp3" },
+            { word: "kogi", translation: "river", hint: "natural watercourse", audio: "../hausa/river.mp3" },
+            { word: "rana", translation: "sky", hint: "atmospheric expanse above the earth", audio: "../hausa/sky.mp3" },
+            { word: "gwari", translation: "knife", hint: "sharp-edged cutting tool", audio: "../hausa/knife.mp3" },
+            { word: "tsuntsu", translation: "bird", hint: "winged creature", audio: "../hausa/bird.mp3" },
+            { word: "kogi", translation: "planet", hint: "celestial body orbiting a star", audio: "../hausa/planet.mp3" },
+            { word: "mage", translation: "rock", hint: "large natural stone", audio: "../hausa/rock.mp3" },
+            { word: "zabi", translation: "gift", hint: "something given voluntarily", audio: "../hausa/gift.mp3" },
+            { word: "yasu", translation: "son", hint: "male child in relation to his parents", audio: "../hausa/son.mp3" },
+            { word: "yaro", translation: "friend", hint: "person one knows well and likes", audio: "../hausa/friend.mp3" },
+            { word: "hanya", translation: "way", hint: "route or path", audio: "../hausa/way.mp3" },
+            { word: "tarihi", translation: "time", hint: "indefinite continued progress of existence and events", audio: "../hausa/time.mp3" },
+            { word: "nono", translation: "food", hint: "nutritive material consumed to sustain life", audio: "../hausa/food.mp3" },
+            { word: "mutum", translation: "person", hint: "individual human being", audio: "../hausa/person.mp3" },
+            { word: "son", translation: "love (verb)", hint: "to have a great affection or liking for", audio: "../hausa/love_verb.mp3" },
+            { word: "haskaka", translation: "kindness", hint: "quality of being friendly, generous, and considerate", audio: "../hausa/kindness.mp3" },
+            { word: "rawa", translation: "music", hint: "art of combining sounds in a harmonious way", audio: "../hausa/music.mp3" },
+            { word: "haiki", translation: "light", hint: "visible form of electromagnetic radiation", audio: "../hausa/light.mp3" },
+            { word: "jagora", translation: "arrow", hint: "projectile fired from a bow", audio: "../hausa/arrow.mp3" },
+            { word: "duniya", translation: "earth", hint: "planet on which we live", audio: "../hausa/earth.mp3" },
+            { word: "wurin", translation: "place", hint: "particular position or location", audio: "../hausa/place.mp3" },
+            { word: "haske", translation: "sadness", hint: "state of being unhappy or sorrowful", audio: "../hausa/sadness.mp3" },
+            { word: "nagode", translation: "gratitude", hint: "quality of being thankful", audio: "../hausa/gratitude.mp3" },
+            { word: "mutuwa", translation: "death", hint: "cessation of life", audio: "../hausa/death.mp3" },
+            { word: "duniya", translation: "world", hint: "the earth, together with all of its countries and peoples", audio: "../hausa/world.mp3" },
+            { word: "harmu", translation: "wind", hint: "natural movement of the air", audio: "../hausa/wind.mp3" },
+            { word: "ruhun", translation: "spirit", hint: "non-physical part of a person", audio: "../hausa/spirit.mp3" },
+            { word: "iyali", translation: "desire", hint: "strong feeling of wanting to have something", audio: "../hausa/desire.mp3" },
+            { word: "yanke", translation: "success", hint: "accomplishment of an aim or purpose", audio: "../hausa/success.mp3" }
         ],
         shuffle: function() {
             this.words.sort(() => Math.random() - 0.5);
@@ -54,7 +51,7 @@ Object.values(vocabulary).forEach(lang => {
 
 let currentWordIndex = 0;
 let wordsLearned = 0;
-let currentLanguage = "italian"; // Default language
+let currentLanguage = "hausa"; // Default language
 
 // Function to toggle language between English and Japanese
 function toggleLanguage() {

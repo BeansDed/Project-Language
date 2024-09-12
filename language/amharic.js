@@ -1,46 +1,34 @@
 const vocabulary = {
-    italian: {
+    amharic: {
         words: [
-            { word: "Cane", translation: "Dog", hint: "pet", audio: "../italian/dog.mp3" },
-            { word: "Gatto", translation: "Cat", hint: "feline", audio: "../italian/cat.mp3" },
-            { word: "Casa", translation: "House", hint: "dwelling", audio: "../italian/house.mp3" },
-            { word: "Blu", translation: "Blue", hint: "color", audio: "../italian/blue.mp3" },
-            { word: "Giallo", translation: "Yellow", hint: "color", audio: "../italian/yellow.mp3" },
-            { word: "Rosso", translation: "Red", hint: "color", audio: "../italian/red.mp3" },
-            { word: "Mela", translation: "Apple", hint: "fruit", audio: "../italian/apple.mp3" },
-            { word: "Acqua", translation: "Water", hint: "drink", audio: "../italian/water.mp3" },
-            { word: "Sole", translation: "Sun", hint: "celestial", audio: "../italian/sun.mp3" },
-            { word: "Luna", translation: "Moon", hint: "celestial", audio: "../italian/moon.mp3" },
-            { word: "Libro", translation: "Book", hint: "read", audio: "../italian/book.mp3" },
-            { word: "Auto", translation: "Car", hint: "vehicle", audio: "../italian/car.mp3" },
-            { word: "Letto", translation: "Bed", hint: "sleep", audio: "../italian/bed.mp3" },
-            { word: "Treno", translation: "Train", hint: "transport", audio: "../italian/train.mp3" },
-            { word: "Città", translation: "City", hint: "urban", audio: "../italian/city.mp3" },
-            { word: "Gioco", translation: "Play", hint: "game", audio: "../italian/play.mp3" },
-            { word: "Mangiare", translation: "Eat", hint: "consume", audio: "../italian/eat.mp3" },
-            { word: "Bere", translation: "Drink", hint: "consume", audio: "../italian/drink.mp3" },
-            { word: "Correre", translation: "Run", hint: "move", audio: "../italian/run.mp3" },
-            { word: "Volare", translation: "Fly", hint: "move", audio: "../italian/fly.mp3" },
-            { word: "Amore", translation: "Love", hint: "emotion", audio: "../italian/love.mp3" },
-            { word: "Odio", translation: "Hate", hint: "emotion", audio: "../italian/hate.mp3" },
-            { word: "Felice", translation: "Happy", hint: "emotion", audio: "../italian/happy.mp3" },
-            { word: "Triste", translation: "Sad", hint: "emotion", audio: "../italian/sad.mp3" },
-            { word: "Alto", translation: "Tall", hint: "height", audio: "../italian/tall.mp3" },
-            { word: "Piccolo", translation: "Small", hint: "size", audio: "../italian/small.mp3" },
-            { word: "Forte", translation: "Strong", hint: "strength", audio: "../italian/strong.mp3" },
-            { word: "Debole", translation: "Weak", hint: "strength", audio: "../italian/weak.mp3" },
-            { word: "Freddo", translation: "Cold", hint: "temperature", audio: "../italian/cold.mp3" },
-            { word: "Caldo", translation: "Hot", hint: "temperature", audio: "../italian/hot.mp3" },
-            { word: "Inverno", translation: "Winter", hint: "season", audio: "../italian/winter.mp3" },
-            { word: "Estate", translation: "Summer", hint: "season", audio: "../italian/summer.mp3" },
-            { word: "Primavera", translation: "Spring", hint: "season", audio: "../italian/spring.mp3" },
-            { word: "Autunno", translation: "Autumn", hint: "season", audio: "../italian/autumn.mp3" },
-            { word: "Amico", translation: "Friend", hint: "relationship", audio: "../italian/friend.mp3" },
-            { word: "Famiglia", translation: "Family", hint: "relationship", audio: "../italian/family.mp3" },
-            { word: "Lavoro", translation: "Work", hint: "job", audio: "../italian/work.mp3" },
-            { word: "Scuola", translation: "School", hint: "education", audio: "../italian/school.mp3" },
-            { word: "Imparare", translation: "Learn", hint: "education", audio: "../italian/learn.mp3" },
-            { word: "Insegnare", translation: "Teach", hint: "education", audio: "../italian/teach.mp3" }
+            { word: "ሐይቅ (hayik)", translation: "love", hint: "deep affection or fondness", audio: "../amharic/love.mp3" },
+            { word: "ሰላም (selam)", translation: "peace", hint: "absence of war or conflict", audio: "../amharic/peace.mp3" },
+            { word: "ግጥም (gɨt'im)", translation: "work", hint: "activity involving mental or physical effort", audio: "../amharic/work.mp3" },
+            { word: "ትምህርት (timhirit)", translation: "education", hint: "process of teaching or learning", audio: "../amharic/education.mp3" },
+            { word: "የቤተሰብ (ye betä seb)", translation: "family", hint: "group of people related by blood or marriage", audio: "../amharic/family.mp3" },
+            { word: "ታች (tach)", translation: "here", hint: "in or at this place", audio: "../amharic/here.mp3" },
+            { word: "እዚህ (ɨzih)", translation: "there", hint: "in or at that place", audio: "../amharic/there.mp3" },
+            { word: "ታች (tach)", translation: "this", hint: "referring to something nearby", audio: "../amharic/this.mp3" },,
+            { word: "ምን (min)", translation: "what", hint: "asking for information about something", audio: "../amharic/what.mp3" },
+            { word: "ምን (min)", translation: "something", hint: "referring to a thing unspecified or unknown", audio: "../amharic/something.mp3" },
+            { word: "እንዴት (ɨndet)", translation: "how", hint: "in what way or manner", audio: "../amharic/how.mp3" },
+            { word: "በውትር (bewäter)", translation: "where", hint: "in or to what place or position", audio: "../amharic/where.mp3" },
+            { word: "ማን (man)", translation: "who", hint: "asking for information about someone", audio: "../amharic/who.mp3" },
+            { word: "ሁሉ (hulu)", translation: "everyone", hint: "every person", audio: "../amharic/everyone.mp3" },
+            { word: "እንደሚታወቅ (ɨndemɨtawäk)", translation: "why", hint: "for what reason or purpose", audio: "../amharic/why.mp3" },
+            { word: "እንደሚታወቅ (ɨndemɨtawäk)", translation: "because", hint: "for the reason that", audio: "../amharic/because.mp3" },
+            { word: "ተንቀሳቃሽ (tenkäsaqasha)", translation: "important", hint: "of great significance or value", audio: "../amharic/important.mp3" },
+            { word: "ተግባራት (tegabarat)", translation: "difficult", hint: "needing much effort or skill to accomplish", audio: "../amharic/difficult.mp3" },
+            { word: "ሰልፍ (selaf)", translation: "easy", hint: "requiring little effort or skill", audio: "../amharic/easy.mp3" },
+            { word: "ሰላም (selam)", translation: "hello", hint: "greeting used when meeting or answering the telephone", audio: "../amharic/hello.mp3" },
+            { word: "ተዘጋጅቶ (tezagajeto)", translation: "goodbye", hint: "expressing good wishes when parting or at the end of a conversation", audio: "../amharic/goodbye.mp3" },
+            { word: "እንቅስቃሴ (ɨnqäsqase)", translation: "excuse me", hint: "phrase used to politely ask someone to move or to get attention", audio: "../amharic/excuse_me.mp3" },
+            { word: "አይደለም (aydɨlam)", translation: "sorry", hint: "expressing regret or asking for forgiveness", audio: "../amharic/sorry.mp3" },
+            { word: "እሺ (ɨshiy)", translation: "yes", hint: "affirmative response or agreement", audio: "../amharic/yes.mp3" },
+            { word: "አዎ (awo)", translation: "no", hint: "negative response or disagreement", audio: "../amharic/no.mp3" },
+            { word: "ውስጥ (wist)", translation: "outside", hint: "the external side or surface of something", audio: "../amharic/outside.mp3" },
+            { word: "እዚህ (ɨzih)", translation: "inside", hint: "the inner part or surface of something", audio: "../amharic/inside.mp3" },
+            { word: "ታች (tach)", translation: "up", hint: "in a higher position", audio: "../amharic/up.mp3" },
         ],
         shuffle: function() {
             this.words.sort(() => Math.random() - 0.5);
@@ -54,7 +42,7 @@ Object.values(vocabulary).forEach(lang => {
 
 let currentWordIndex = 0;
 let wordsLearned = 0;
-let currentLanguage = "italian"; // Default language
+let currentLanguage = "amharic"; // Default language
 
 // Function to toggle language between English and Japanese
 function toggleLanguage() {

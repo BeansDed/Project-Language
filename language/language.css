@@ -1,7 +1,7 @@
 /* Reset default browser styles */
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0 ;
+    padding: -10vh;
     box-sizing: border-box;
 }
 
@@ -9,6 +9,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #c0d9e0;
+    margin: auto;
 }
 
 header {
@@ -16,6 +17,7 @@ header {
     color: white;
     text-align: left;
     padding: 2vh 0;
+    margin: 0 auto;
 }
 
 h1 {
@@ -31,19 +33,38 @@ main {
     margin-right: -5vw;
 }
 
+#audioButton {
+    position: absolute;
+    top: 70vh;
+    right: 66%;
+    transform: translateX(50%);
+    width: 10vw;
+}
+
+/* Updated CSS for the section container */
 .section {
     background-color: #c0d9e0;
     border-radius: 2vh;
     padding: 4vh;
-    margin-bottom: 50vh;
+    margin-bottom: 10vh;
     width: 80vw;
     max-width: 50vw;
     margin-top: -5vh;
     margin-right: -80vh;
-    height: 40vh; 
-    overflow-y: auto; 
+    height: calc(30vh + 10vh);
+    width: calc(100vw - 10vw);
+    overflow-y: hidden;
 }
 
+/* Updated CSS for the input field */
+input[type="text"] {
+    padding: 2.5vh;
+    border: none;
+    border-radius: 2.5vw;
+    width: calc(100vw - 5vw);
+    max-width: 25vw;
+    margin-bottom: 2vh;
+}
 
 .word {
     font-size: 2vw;
@@ -65,15 +86,6 @@ main {
     margin-top: 25vh;
 }
 
-input[type="text"] {
-    padding: 2.5vh;
-    border: none;
-    border-radius: 2.5vw;
-    width: calc(100vw - 5vw);
-    max-width: 25vw;
-    margin-bottom: 6vh;
-}
-
 button {
     padding: 1vh 2vw;
     background-color: #f36900;
@@ -84,15 +96,21 @@ button {
     transition: background-color 0.3s ease;
 }
 
-#nextWordButton{
+.speakers {
+    height: 5%;
+    width: 5%;
+}
+
+#nextWordButton {
     margin-top: 2vh;
 }
 
-#translationInput{
+#translationInput {
     margin-top: 2vh;
     margin-left: 0vh;
     height: -10vh;
 }
+
 .button_title {
     font-family: 'Times New Roman', Times, serif;
     font-size: 7vh;
@@ -109,16 +127,39 @@ button:hover {
 }
 
 #feedback {
-    margin-top: -3vh;
+    margin-top: -1vh;
     font-style: italic;
     color: #888;
 }
 
-h2{
+h2 {
     margin-top: -55vh;
     margin-right: 0vh;
 }
-#progressText{
+
+#progressText {
     margin-top: 1vh;
     margin-right: 39vw;
 }
+
+/* Added styles for the speaker icon */
+#audio {
+    width: 9vw;
+    height: 3vw;
+    margin-left: 1vw;
+    cursor: pointer;
+    display: none;
+}
+
+.back {
+    margin-left: -85vw;
+    margin-top: 10vh;
+}
+
+.hi {
+    margin-top: -75vh;
+    margin-left: 100vw;
+    font-size: 1vw;
+    font-weight: bold;
+    color: black;
+}   

@@ -1,53 +1,52 @@
 const vocabulary = {
     spanish: {
         words: [
-            { word: "Hola", translation: "Hello", hint: "Common greeting" },
-            { word: "Adiós", translation: "Goodbye", hint: "Farewell" },
-            { word: "Me llamo", translation: "MyNameIs", hint: "How you greet your name" },
-            { word: "Buenos Dias", translation: "GoodMorning", hint: "What do you say to someone in the morning" },
-            { word: "perro", translation: "Dog", hint: "common household pet" },
-            { word: "gato", translation: "Cat", hint: "furry and independent" },
-            { word: "casa", translation: "House", hint: "place where you live" },
-            { word: "azul", translation: "Blue", hint: "color of the sky" },
-            { word: "amarillo", translation: "Yellow", hint: "color of the sun" },
-            { word: "rojo", translation: "Red", hint: "color of passion" },
-            { word: "manzana", translation: "Apple", hint: "fruit often associated with teachers" },
-            { word: "agua", translation: "Water", hint: "essential for life" },
-            { word: "sol", translation: "Sun", hint: "central to our solar system" },
-            { word: "luna", translation: "Moon", hint: "Earth's natural satellite" },
-            { word: "libro", translation: "Book", hint: "source of knowledge" },
-            { word: "coche", translation: "Car", hint: "personal transportation" },
-            { word: "cama", translation: "Bed", hint: "where you sleep" },
-            { word: "tren", translation: "Train", hint: "mode of public transportation" },
-            { word: "ciudad", translation: "City", hint: "urban area" },
-            { word: "jugar", translation: "ToPlay", hint: "activity for fun" },
-            { word: "comer", translation: "ToEat", hint: "necessary for survival" },
-            { word: "beber", translation: "ToDrink", hint: "necessary for hydration" },
-            { word: "correr", translation: "ToRun", hint: "physical activity" },
-            { word: "volar", translation: "ToFly", hint: "how birds move" },
-            { word: "amar", translation: "ToLove", hint: "deep affection" },
-            { word: "odiar", translation: "ToHate", hint: "intense dislike" },
-            { word: "feliz", translation: "Happy", hint: "positive emotion" },
-            { word: "triste", translation: "Sad", hint: "opposite of happy" },
-            { word: "alto", translation: "Tall", hint: "height description" },
-            { word: "bajo", translation: "Short", hint: "opposite of tall" },
-            { word: "fuerte", translation: "Strong", hint: "physical strength" },
-            { word: "débil", translation: "Weak", hint: "opposite of strong" },
-            { word: "frío", translation: "Cold", hint: "low temperature" },
-            { word: "caliente", translation: "Hot", hint: "high temperature" },
-            { word: "invierno", translation: "Winter", hint: "coldest season" },
-            { word: "verano", translation: "Summer", hint: "hottest season" },
-            { word: "primavera", translation: "Spring", hint: "season of blooming flowers" },
-            { word: "otoño", translation: "Autumn", hint: "season of falling leaves" },
-            { word: "familia", translation: "Family", hint: "people you're related to" },
-            { word: "amigo", translation: "Friend", hint: "someone you enjoy spending time with" }  
+            { word: "cachorro", translation: "Dog", hint: "Pet", audio: "../spanish/dog.mp3" },
+            { word: "gato", translation: "Cat", hint: "Feline", audio: "../spanish/cat.mp3" },
+            { word: "casa", translation: "House", hint: "Dwelling", audio: "../spanish/house.mp3" },
+            { word: "azul", translation: "Blue", hint: "Color", audio: "../spanish/blue.mp3" },
+            { word: "amarelo", translation: "Yellow", hint: "Color", audio: "../spanish/yellow.mp3" },
+            { word: "vermelho", translation: "Red", hint: "Color", audio: "../spanish/red.mp3" },
+            { word: "maçã", translation: "Apple", hint: "Fruit", audio: "../spanish/apple.mp3" },
+            { word: "água", translation: "Water", hint: "Drink", audio: "../spanish/water.mp3" },
+            { word: "sol", translation: "Sun", hint: "Celestial", audio: "../spanish/sun.mp3" },
+            { word: "lua", translation: "Moon", hint: "Celestial", audio: "../spanish/moon.mp3" },
+            { word: "livro", translation: "Book", hint: "Read", audio: "../spanish/book.mp3" },
+            { word: "carro", translation: "Car", hint: "Vehicle", audio: "../spanish/car.mp3" },
+            { word: "cama", translation: "Bed", hint: "Sleep", audio: "../spanish/bed.mp3" },
+            { word: "trem", translation: "Train", hint: "Transport", audio: "../spanish/train.mp3" },
+            { word: "cidade", translation: "City", hint: "Urban", audio: "../spanish/city.mp3" },
+            { word: "brincar", translation: "Play", hint: "Game", audio: "../spanish/play.mp3" },
+            { word: "comer", translation: "Eat", hint: "Consume", audio: "../spanish/eat.mp3" },
+            { word: "beber", translation: "Drink", hint: "Consume", audio: "../spanish/drink.mp3" },
+            { word: "correr", translation: "Run", hint: "Move", audio: "../spanish/run.mp3" },
+            { word: "voar", translation: "Fly", hint: "Move", audio: "../spanish/fly.mp3" },
+            { word: "amor", translation: "Love", hint: "Emotion", audio: "../spanish/love.mp3" },
+            { word: "ódio", translation: "Hate", hint: "Emotion", audio: "../spanish/hate.mp3" },
+            { word: "feliz", translation: "Happy", hint: "Emotion", audio: "../spanish/happy.mp3" },
+            { word: "triste", translation: "Sad", hint: "Emotion", audio: "../spanish/sad.mp3" },
+            { word: "alto", translation: "Tall", hint: "Height", audio: "../spanish/tall.mp3" },
+            { word: "pequeno", translation: "Small", hint: "Size", audio: "../spanish/small.mp3" },
+            { word: "forte", translation: "Strong", hint: "Strength", audio: "../spanish/strong.mp3" },
+            { word: "fraco", translation: "Weak", hint: "Strength", audio: "../spanish/weak.mp3" },
+            { word: "frio", translation: "Cold", hint: "Temperature", audio: "../spanish/cold.mp3" },
+            { word: "quente", translation: "Hot", hint: "Temperature", audio: "../spanish/hot.mp3" },
+            { word: "inverno", translation: "Winter", hint: "Season", audio: "../spanish/winter.mp3" },
+            { word: "verão", translation: "Summer", hint: "Season", audio: "../spanish/summer.mp3" },
+            { word: "primavera", translation: "Spring", hint: "Season", audio: "../spanish/spring.mp3" },
+            { word: "outono", translation: "Autumn", hint: "Season", audio: "../spanish/autumn.mp3" },
+            { word: "amigo", translation: "Friend", hint: "Relationship", audio: "../spanish/friend.mp3" },
+            { word: "família", translation: "Family", hint: "Relationship", audio: "../spanish/family.mp3" },
+            { word: "trabalho", translation: "Work", hint: "Job", audio: "../spanish/work.mp3" },
+            { word: "escola", translation: "School", hint: "Education", audio: "../spanish/school.mp3" },
+            { word: "aprender", translation: "Learn", hint: "Education", audio: "../spanish/learn.mp3" },
+            { word: "ensinar", translation: "Teach", hint: "Education", audio: "../spanish/teach.mp3" }
         ],
         shuffle: function() {
             this.words.sort(() => Math.random() - 0.5);
         }
     },
 };
-
 
 Object.values(vocabulary).forEach(lang => {
     lang.shuffle();
@@ -57,6 +56,33 @@ let currentWordIndex = 0;
 let wordsLearned = 0;
 let currentLanguage = "spanish"; // Default language
 
+// Function to toggle language between English and Japanese
+function toggleLanguage() {
+    const languageButton = document.querySelector('.spain');
+    const wordElement = document.getElementById("word");
+    const hintElement = document.getElementById("hint");
+    const audioButton = document.getElementById("audioButton"); // Corrected identification
+    const languageSelect = document.getElementById("languageSelect");
+
+    if (languageButton.textContent === 'Change Language') {
+        languageButton.textContent = 'Change Back';
+        wordElement.textContent = "こんにちは (Konnichiwa)";
+        hintElement.textContent = "Japanese greeting";
+        audioButton.textContent = "発音する"; // Change text to Japanese
+        languageSelect.value = "japan"; // Set language select to Japanese
+    } else {
+        languageButton.textContent = 'Change Language';
+        wordElement.textContent = 'Click "Next Word" to Start';
+        hintElement.textContent = '';
+        audioButton.textContent = 'Pronounce'; // Change text back to English
+        languageSelect.value = ""; // Reset language select
+    }
+}
+
+// Event listener for audio button
+document.getElementById("audioButton").addEventListener("click", playAudio);
+
+
 function displayNextWord() {
     const wordElement = document.getElementById("word");
     const hintElement = document.getElementById("hint");
@@ -65,12 +91,22 @@ function displayNextWord() {
     const currentWord = vocabulary[currentLanguage].words[currentWordIndex];
     wordElement.textContent = currentWord.word;
     hintElement.textContent = "Hint: " + currentWord.hint;
+    audioElement.src = currentWord.audio; // Corrected audio source
 
     // Reset feedback and translation input
     document.getElementById("feedback").textContent = "";
     document.getElementById("translationInput").value = "";
-
 }
+
+// Function to play audio
+function playAudio() {
+    const audioElement = document.getElementById("audio");
+    audioElement.play();
+}
+
+// Event listener for audio button
+document.getElementById("audio").addEventListener("click", playAudio);
+
 
 // Function to check translation
 function checkTranslation() {
@@ -98,8 +134,6 @@ document.getElementById("translationInput").addEventListener("keydown", function
     }
 });
 
-
-
 function updateProgress() {
     const progressTextElement = document.getElementById("progressText");
     progressTextElement.textContent = `${wordsLearned} / ${vocabulary[currentLanguage].words.length} words learned`;
@@ -117,7 +151,7 @@ document.getElementById("checkTranslationButton").addEventListener("click", chec
 // Event listener for language selection
 document.getElementById("languageSelect").addEventListener("change", function(event) {
     currentLanguage = event.target.value;
-    currentWordIndex = 0; 
+    currentWordIndex = 0; // Reset the word index when language changes
     displayNextWord();
     updateProgress();
 });
