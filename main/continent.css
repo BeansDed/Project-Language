@@ -1,0 +1,122 @@
+    body {
+        background-color: #76b5c5;
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 9vw;
+        margin: 0;
+        width: 100%;
+        height: auto;
+        min-width: 1000px;
+    }
+
+    header {
+        background-color: white;
+        padding: 1vh;
+        margin: 0 auto;
+    }
+
+    .back_button{
+        height: 5%;
+        width: 5%;
+        margin-bottom: -2vh;
+    }   
+
+
+    /* BODY */
+    * {
+        margin: 0;
+        padding: 0;
+        color: black;
+    }
+
+    .body {
+        background-color: #76b5c5;
+        overflow: hidden; /* Disable scrolling */
+    }
+
+    .paragraph {
+        padding: 0 2.5vw;
+        font-size: 5vw;
+        font-weight: 800;
+        margin-bottom: 4vh;
+        text-transform: capitalize;
+        margin-top: 6vh;
+    }
+
+    .logo {
+        position: absolute;
+        top:6%;
+        left: .5vw;
+        transform: translateY(-50%);
+        height: 10%;
+        width: 5%;
+    }
+
+    .title {
+        font-size: 4vw;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 5vw;
+        font-weight: normal;
+        font-style: italic;
+    }
+
+    /* LANGUAGE */
+    .language-section {
+        position: relative;
+        overflow: hidden;
+        padding: 1vh 0;
+    }
+
+    .language-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .language-container {
+        padding: 0 2.5vw;
+        display: flex;
+        flex-wrap: wrap; /* Allow items to wrap to the next line */
+        justify-content: center; /* Center items horizontally */
+        max-width: 100%;
+        margin-left: 4vh;
+    ;
+    }
+
+    .language-card {
+        flex-shrink: 0;
+        width: 30vw; /* Adjust width as needed */
+        height: auto;
+        margin-right: 2.5vw; /* Add some margin between cards */
+        margin-bottom: 2vh; /* Add some margin between rows */
+    }
+
+    .language-image {
+        position: relative;
+        width: 30vh;
+        height: 30vh;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .language-thumb {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 4vw;
+    }
+
+    .button {
+        border:none;
+        background-color: #76b5c5;
+        padding: 7vh; /* Add padding to the button */
+        font-size: 10vh; /* Adjust font size */
+        cursor: pointer; /* Add cursor pointer */
+        font-family: 'Times New Roman', Times, serif;
+        color:beige;
+    }
+
+    .language-brand {
+        text-transform: uppercase;
+    }
+
